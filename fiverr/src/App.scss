@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+$primary-color: #013914;
+$secondary-color: #1dbf73;
+
+.btn {
+padding: 10px 20px;
+border-radius: 5px;
+border: 1px solid white;
+cursor: pointer;
+    &:hover {
+        background-color: $secondary-color;
+        border-color: $secondary-color;
+    }
+}
+
+.primary {
+    color: white;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+    
+*::placeholder {
+    color: rgb(190, 189, 189);
+}
+
+
+
